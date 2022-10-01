@@ -1,5 +1,6 @@
-.body {
+.body-idx {
   background-color: #ffffff;
+  font-family: 'Roboto';
 }
 
 .header {
@@ -261,7 +262,12 @@
 
 /*PORTFOLIO CSS*/
 
-.button-portfolii{
+.body-portfolio{
+  background-color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.button-portfolio{
   font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
