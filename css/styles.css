@@ -1,6 +1,6 @@
 .body-idx {
   background-color: #ffffff;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .header {
@@ -16,33 +16,7 @@
   letter-spacing: 0.03em;
 }
 
-.studio {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #212121;
-}
-.studio:hover {
-  color: #2196f3;
-}
-
-.portfolio {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-     }
-
-.portfolio:hover {
-  color: #2196f3;
-}
-
-.contakts {
+.navigation {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -53,11 +27,11 @@
   color: #212121;
 }
 
-.contakts:hover {
+.navigation:hover {
   color: #2196f3;
 }
 
-.mail {
+.nav-address {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -67,21 +41,7 @@
 
   color: #757575;
 }
-.mail:hover {
-  color: #2196f3;
-}
-
-.phone {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #757575;
-}
-.phone:hover {
+.nav-address:hover {
   color: #2196f3;
 }
 
@@ -100,11 +60,10 @@
 
 .button {
   color: #ffffff;
-  background: #2196F3;
-
+  background: #2196f3;
 }
 
-.button:hover{
+.button:hover {
   color: #ffffff;
   cursor: pointer;
 }
@@ -262,29 +221,29 @@
 
 /*PORTFOLIO CSS*/
 
-.body-portfolio{
+.body-portfolio {
   background-color: #ffffff;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
-.button-portfolio{
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
+.button-portfolio {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
 
-text-align: center;
-letter-spacing: 0.03em;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-color: #212121;
+  color: #212121;
 }
 
-.button-portfolii:hover {
+.button-portfolio:hover {
   background-color: #2196f3;
   color: #ffffff;
-  cursor: pointer;;
+  cursor: pointer;
 }
 
 /*.main-portfolio {
@@ -314,4 +273,34 @@ color: #212121;
   letter-spacing: 0.03em;
 
   color: #757575;
+}
+
+.address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.footer-address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address:hover {
+  color: #2196f3;
 }
